@@ -37,7 +37,6 @@ export class Launch extends Component {
 							flight_number,
 							launch_year,
 							launch_success,
-							launch_date_local,
 							rocket: { rocket_id, rocket_name, rocket_type },
 						} = data.launch
 						return (
